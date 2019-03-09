@@ -24,7 +24,7 @@ class App extends Component {
           <h1 className='company-box'>LunchBoqs</h1>
         </section>
         <section className='bottom-container' />
-        <footer className='footer'>Made with 💝 from SDG</footer>
+        <footer className='footer'>Made with 💝 from SDG 2019</footer>
       </>
     )
   }
