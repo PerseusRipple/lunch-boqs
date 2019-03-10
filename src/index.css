@@ -64,7 +64,7 @@ section.login-container button.signUp {
   background-position: left;
 } */
 
-/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+/* Media Queries for NavBar and Login Container*/
 @media screen and (max-width: 600px) {
   .topnav .login-container {
     float: none;
@@ -160,6 +160,11 @@ section.login-container button.signUp {
   /* display: none; */
 }
 
+/* Media Queries for Main Banner */
+@media only screen and (min-width: 768px) {
+}
+
+/* Selector Container */
 .selector-container {
   display: block;
   text-align: center;
@@ -183,13 +188,8 @@ section.login-container button.signUp {
   background: #ccc;
 }
 
+/* Media Queries for Selector Container */
 @media screen and (max-width: 600px) {
-  .company-box {
-    background-size: cover;
-    position: fixed;
-    width: 100%;
-  }
-
   .selector-container button {
     float: none;
     display: block;
@@ -270,6 +270,7 @@ section.login-container button.signUp {
   display: none;
 } */
 
+/* Media Queries for Bottom Container */
 @media only screen and (min-width: 768px) {
   .footer {
     display: none;
@@ -277,4 +278,13 @@ section.login-container button.signUp {
 }
 
 @media only screen and (min-width: 992px) {
+}
+
+.calendar {
+  width: 8rem;
+  height: 11rem;
+  background-color: cornflowerblue;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(50, 50, 50, 0.4);
 }

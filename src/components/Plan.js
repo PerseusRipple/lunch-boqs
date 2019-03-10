@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Plan from './Plan'
 
 class Plan extends Component {
   render() {

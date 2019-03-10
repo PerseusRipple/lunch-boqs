@@ -50,3 +50,10 @@
 /* font-size: 2.75rem; */
 /* width: 100%; */
 // }
+
+// Media Query
+// .company-box {
+//   background-size: cover;
+//   position: fixed;
+//   width: 100%;
+// }
