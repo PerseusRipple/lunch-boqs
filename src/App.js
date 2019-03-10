@@ -9,15 +9,22 @@ class App extends Component {
           {/* <a class='active' href='#home'>
             Home
           </a> */}
-          <img
-            src='./images/logo_transparent.png'
-            // alt='company logo'
-            width='130'
-            height='90'
-          />
+          {
+            <img
+              src='./images/logo_transparent.png'
+              alt='company logo'
+              width='130'
+              height='35'
+            />
+          }
           <section className='login-container'>
-            <button type='submit'>Login</button>
-            <button type='submit'>Sign Up</button>
+            <button className='login' type='submit'>
+              Login
+            </button>
+
+            <button className='signUp' type='submit'>
+              Sign Up
+            </button>
             {/* <form action='/action_page.php'>
               <input type='text' placeholder='Username' name='username' />
               <input type='text' placeholder='Password' name='psw' /> 
@@ -25,31 +32,33 @@ class App extends Component {
           </section>
         </section>
 
-        <section className='content'>
-          <section className='flex-container'>
-            <section className='company-box'>
-              <section className='image-content'>
-                <a href='#'>
-                  {/* <img
+        <section className='main-banner'>
+          <section className='container'>
+            <section className='headline'>
+              <a href='#'>
+                {/* <img
                 scr='./images/logo.png'
                 alt='LOGO'
                 width='560'
                 height='560'
               /> */}
-                </a>
-              </section>
+              </a>
               <h2>Keep Midday Simple.</h2>
             </section>
           </section>
-          <section className='bottom-container' />
         </section>
-        <footer className='footer'>
-          Made with{' '}
-          <span role='img' alt='heart emoji'>
-            💝
-          </span>{' '}
-          from SDG 2019
-        </footer>
+
+        {/* <section className='flex-container'>  */}
+        <section className='selector-container'>
+          <button type='submit'>Plan</button>
+          <button type='submit'>Pack</button>
+          <button type='submit'>Eat</button>
+        </section>
+        {/* </section> */}
+
+        <section className='bottom-container' />
+
+        {/* <footer className='footer'>© LunchBoqs™ 2019</footer> */}
       </>
     )
   }
