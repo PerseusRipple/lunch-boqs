@@ -34,3 +34,19 @@
   border: none;
   width: 9.4rem;
 } */
+
+// .company-box {
+/* text-align: center; */
+/* background-image: url('/images/logo.png'); */
+/* background-size: 23rem; */
+/* background-size: 33rem; */
+/* background-repeat: no-repeat; */
+/* border: 0.33rem solid black; */
+/* padding: 3rem;
+  margin: 15rem 1rem 0rem 1rem; */
+/* height: 20rem; */
+/* padding-top: 0.5rem; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-size: 2.75rem; */
+/* width: 100%; */
+// }

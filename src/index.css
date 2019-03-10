@@ -27,11 +27,15 @@ body {
   /* border: 0.25rem dotted black; */
 }
 
-/* .topnav img {
-  align-items: center;
-} */
+/* NavBar logo image */
+.topnav img {
+  display: none;
+  align-content: center;
+  /* margin-left: 33%; */
+  /* width: auto; */
+}
 
-/* Button inside the input container */
+/* Input Button */
 .topnav .login-container button {
   float: right;
   padding: 3rem;
@@ -44,11 +48,12 @@ body {
   cursor: pointer;
 }
 
-/* on Hover */
+/* Input Button Hover */
 .topnav .login-container button:hover {
   background: #ccc;
 }
 
+/* signUp Button */
 section.login-container button.signUp {
   display: none;
 }
@@ -59,18 +64,12 @@ section.login-container button.signUp {
   background-position: left;
 } */
 
-.topnav img {
-  display: none;
-  align-content: center;
-  /* margin-left: 33%; */
-  /* width: auto; */
-}
-
 /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav .login-container {
     float: none;
   }
+
   .topnav a,
   .topnav input,
   .topnav .login-container button {
@@ -88,7 +87,6 @@ section.login-container button.signUp {
 
   .topnav .login-container img {
     float: none;
-
     align-content: left;
     /* margin-left: 33%; */
     /* width: auto; */
@@ -99,6 +97,7 @@ section.login-container button.signUp {
   .topnav .login-container {
     float: none;
   }
+
   .topnav a,
   .topnav input,
   .topnav .login-container button {
@@ -145,22 +144,6 @@ section.login-container button.signUp {
   padding-top: 0.5rem;
 }
 
-.company-box {
-  /* text-align: center; */
-  /* background-image: url('/images/logo.png'); */
-  /* background-size: 23rem; */
-  /* background-size: 33rem; */
-  background-repeat: no-repeat;
-  /* border: 0.33rem solid black; */
-  /* padding: 3rem;
-  margin: 15rem 1rem 0rem 1rem; */
-  height: 20rem;
-  padding-top: 0.5rem;
-  font-family: 'Montserrat', sans-serif;
-  /* font-size: 2.75rem; */
-  width: 100%;
-}
-
 .headline {
   background-color: black;
   color: whitesmoke;
@@ -174,7 +157,6 @@ section.login-container button.signUp {
   text-align: center;
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
-
   /* display: none; */
 }
 
