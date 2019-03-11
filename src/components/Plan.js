@@ -4,11 +4,17 @@ class Plan extends Component {
   render() {
     return (
       <>
-        <section className='container'>
+        <section className='calendar-container'>
           <section className='calendar'>
-            <p className='calendar-day' />
-            <p className='calendar-date' />
-            <p className='calendar-month' />
+            <h1 className='calendar-header'>Your Meal Plan</h1>
+            <p className='calendar-month'>Month</p>
+            <p className='calendar-day'>Days</p>
+            <p className='calendar-date'>Date</p>
+            <h3>Select the days you want a LunchBoqs</h3>
+            <h4>Click 'Pack' to view your local menu options</h4>
+            <button className='step-two' type='submit'>
+              Pack
+            </button>
           </section>
         </section>
       </>

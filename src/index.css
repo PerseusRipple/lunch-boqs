@@ -280,11 +280,106 @@ section.login-container button.signUp {
 @media only screen and (min-width: 992px) {
 }
 
+/* Calendar */
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .calendar {
-  width: 8rem;
-  height: 11rem;
-  background-color: cornflowerblue;
+  width: 90%;
+  height: 44rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  background-color: rgb(132, 153, 196);
   color: rgb(255, 255, 255);
   border-radius: 5%;
   box-shadow: 0 0.25rem 0.25rem 0 rgba(50, 50, 50, 0.4);
+}
+
+.calendar-header {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+p.calendar {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.75rem 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.calendar-day {
+  font-size: 1rem;
+}
+
+.calendar-month-year {
+  font-size: 0.85rem;
+}
+
+.calendar-date {
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0;
+}
+
+.step-two {
+  text-align: center;
+  border: 0.1rem solid #ccc;
+  width: 10rem;
+  border-radius: 5%;
+  margin-top: 2rem;
+  margin-left: 33%;
+  font-size: 1.5rem;
+}
+
+.step-two:hover {
+  background-color: rgb(126, 138, 161);
+}
+
+/* Media Queries for Calendar */
+
+.restaurant-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(126, 138, 161);
+  border-radius: 5%;
+  margin-top: 1rem;
+}
+
+.pack-header {
+  margin: 0.75rem;
+  padding: 0.75rem;
+}
+
+ul.restaurant-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  padding: 1.5rem;
+  padding-top: 0.75rem;
+  text-decoration: none;
+  /* margin-left: 0.5rem;
+  margin-right: 0.5rem; */
+}
+
+li {
+  padding: 0.65rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(132, 153, 196);
 }
