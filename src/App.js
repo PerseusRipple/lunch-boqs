@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Plan from './components/Plan'
-import Pack from './components/Pack'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Plan from './pages/Plan'
+import Pack from './pages/Pack'
 
 class App extends Component {
   render() {
