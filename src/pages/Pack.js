@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Pack extends Component {
   render() {
@@ -22,7 +23,7 @@ class Pack extends Component {
             </a>
             <a href='#'>
               {' '}
-              <li>Lizard Land</li>
+              <li>Aesop's Tables</li>
             </a>
             <a href='#'>
               <li>Moo and Cookies</li>

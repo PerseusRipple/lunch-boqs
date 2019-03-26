@@ -1,29 +1,12 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
+// import { Link } from 'react-router-dom'
 
-class Header extends Component {
-  render() {
-    return (
-      <>
-        <header>
-          <section className='topnav'>
-            <section className='login-container'>
-              <button className='login' type='submit'>
-                Login
-              </button>
+// class Header extends Component {
+//   render() {
+//     return (
 
-              <button className='signUp' type='submit'>
-                Sign Up
-              </button>
-              {/* <form action='/action_page.php'>
-        <input type='text' placeholder='Username' name='username' />
-        <input type='text' placeholder='Password' name='psw' /> 
-      </form> */}
-            </section>
-          </section>
-        </header>
-      </>
-    )
-  }
-}
+//     )
+//   }
+// }
 
-export default Header
+// export default Header
