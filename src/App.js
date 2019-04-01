@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 // import Header from './pages/Header'
-import SplashPage from './pages/SplashPage'
+import HomePage from './pages/HomePage'
 import Plan from './pages/Plan'
 import Pack from './pages/Pack'
 
@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <Switch>
           {/* <Route exact path='/' component={Header} /> */}
-          <Route exact path='/' component={SplashPage} />
+          <Route exact path='/' component={HomePage} />
           <Route exact path='/:plan' component={Plan} />
           <Route exact path='/:pack' component={Pack} />
         </Switch>

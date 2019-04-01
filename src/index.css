@@ -177,6 +177,7 @@ section.login-container button.signUp {
 .selector-container button {
   text-align: center;
   border: 0.1rem solid #ccc;
+  border-radius: 5%;
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
@@ -206,7 +207,7 @@ section.login-container button.signUp {
   }
 } */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 611px) {
   .selector-container {
     display: flex;
     justify-content: center;
@@ -229,7 +230,7 @@ section.login-container button.signUp {
   }
   .selector-container button {
     float: none;
-    display: flex;
+    /* display: flex; */
     align-content: space-around;
     text-align: center;
     width: 100%;
@@ -245,7 +246,7 @@ section.login-container button.signUp {
   }
   .selector-container button {
     float: none;
-    display: flex;
+    /* display: flex; */
     align-content: space-around;
     text-align: center;
     width: 100%;

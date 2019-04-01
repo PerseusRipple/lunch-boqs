@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-class SplashPage extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div>
@@ -69,4 +69,4 @@ class SplashPage extends Component {
   }
 }
 
-export default SplashPage
+export default HomePage
